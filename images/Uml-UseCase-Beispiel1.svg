@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="440">
+  <rect x="10" y="10" width="680" height="420" style="fill:white;stroke:black;stroke-width:1;" />
+  <polyline points="10,60 190,60 215,40 215,10" style="fill:none;stroke:black;stroke-width:1;" />
+  <text x="20" y="40" font-size="16" font-family="Arial,sans-serif" text-anchor="start"><tspan font-weight="600">use case</tspan> GSM</text>
+  <rect x="185" y="85" width="330" height="315" style="fill:white;stroke:black;stroke-width:1;" />
+  <line x1="185" y1="135" x2="515" y2="135" style="stroke:black;stroke-width:1;" />
+  <text x="350" y="115" font-size="16" font-family="Arial,sans-serif" text-anchor="middle" font-weight="600">Mobilfunkbetreiber</text>
+  <polyline points="70,235 70,205 630,205 630,235" style="fill:none;stroke:black;stroke-width:1;" />
+  <ellipse cx="350" cy="205" rx="80" ry="35" style="fill:white;stroke:black;stroke-width:1;" />
+  <text x="350" y="211" font-size="16" font-family="Arial,sans-serif" text-anchor="middle" font-weight="600">SMS verschicken</text>
+  <polyline points="87,260 125,260 125,335 575,335 575,260 613,260" style="fill:none;stroke:black;stroke-width:1;" />
+  <ellipse cx="350" cy="335" rx="80" ry="35" style="fill:white;stroke:black;stroke-width:1;" />
+  <text x="350" y="331" font-size="16" font-family="Arial,sans-serif" text-anchor="middle" font-weight="600">Fotomessage</text>
+  <text x="350" y="350" font-size="16" font-family="Arial,sans-serif" text-anchor="middle" font-weight="600">verschicken</text>
+  <circle cx="70" cy="247" r="6" style="fill:none;stroke:black;stroke-width:1;" />
+  <line x1="70" y1="253" x2="70" y2="273" style="stroke:black;stroke-width:1;" />
+  <line x1="60" y1="261" x2="80" y2="261" style="stroke:black;stroke-width:1;" />
+  <line x1="70" y1="273" x2="60" y2="285" style="stroke:black;stroke-width:1;" />
+  <line x1="70" y1="273" x2="80" y2="285" style="stroke:black;stroke-width:1;" />
+  <text x="70" y="305" font-size="16" font-family="Arial,sans-serif" text-anchor="middle" font-weight="600">Sender</text>
+  <circle cx="630" cy="247" r="6" style="fill:none;stroke:black;stroke-width:1;" />
+  <line x1="630" y1="253" x2="630" y2="273" style="stroke:black;stroke-width:1;" />
+  <line x1="640" y1="261" x2="620" y2="261" style="stroke:black;stroke-width:1;" />
+  <line x1="630" y1="273" x2="640" y2="285" style="stroke:black;stroke-width:1;" />
+  <line x1="630" y1="273" x2="620" y2="285" style="stroke:black;stroke-width:1;" />
+  <text x="630" y="305" font-size="16" font-family="Arial,sans-serif" text-anchor="middle" font-weight="600">Empfänger</text>
+</svg>
