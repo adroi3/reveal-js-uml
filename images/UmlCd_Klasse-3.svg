@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="160">
+  <marker id="arr" viewBox="0 0 8 8" refX="0" refY="4" markerUnits="strokeWidth" markerWidth="8" markerHeight="8" orient="auto" fill="blue">
+    <path d="M 0,0 l 8,4 l -8,4 z"/>
+  </marker>
+  <rect x="10" y="10" width="190" height="140" style="fill:white;stroke:black;stroke-width:1;"/>
+  <text x="105" y="23" font-size="12px" font-family="Arial,sans-serif" text-anchor="middle">&lt;&lt;gui&gt;&gt;</text>
+  <text x="105" y="38" font-size="13px" font-family="Arial,sans-serif" text-anchor="middle" font-weight="600">Window</text>
+  <text x="105" y="53" font-size="12px" font-family="Arial,sans-serif" text-anchor="middle">{abstract}</text>
+  <line x1="10" y1="60" x2="200" y2="60" stroke="black" stroke-width="1"/>
+  <text x="15" y="78" font-size="13px" font-family="Arial,sans-serif" text-anchor="start">+ size: Area = (100,100)</text>
+  <text x="15" y="93" font-size="13px" font-family="Arial,sans-serif" text-anchor="start"># visibility: Boolean = true</text>
+  <line x1="10" y1="105" x2="200" y2="105" stroke="black" stroke-width="1"/>
+  <text x="15" y="123" font-size="13px" font-family="Arial,sans-serif" text-anchor="start">+ display()</text>
+  <text x="15" y="138" font-size="13px" font-family="Arial,sans-serif" text-anchor="start">+ hide()</text>
+  <text x="300" y="23" font-size="12px" font-family="Arial,sans-serif" text-anchor="middle" fill="blue">Schlüsselwörter</text>
+  <polyline points="250,20 145,20" stroke-dasharray="8,4" marker-end="url(#arr)" style="fill:none;stroke:blue;stroke-width:1"/>
+  <text x="300" y="53" font-size="12px" font-family="Arial,sans-serif" text-anchor="middle" fill="blue">Eigenschaften</text>
+  <polyline points="255,50 145,50" stroke-dasharray="8,4" marker-end="url(#arr)" style="fill:none;stroke:blue;stroke-width:1"/>
+  <text x="300" y="78" font-size="12px" font-family="Arial,sans-serif" text-anchor="middle" fill="blue">Abschnitt mit Attributen</text>
+  <text x="300" y="93" font-size="12px" font-family="Arial,sans-serif" text-anchor="middle" fill="blue">(detaillierte Darstellung)</text>
+  <polyline points="228,82 180,82" stroke-dasharray="8,4" marker-end="url(#arr)" style="fill:none;stroke:blue;stroke-width:1"/>
+  <text x="300" y="123" font-size="12px" font-family="Arial,sans-serif" text-anchor="middle" fill="blue">Abschnitt mit Operationen</text>
+  <text x="300" y="138" font-size="12px" font-family="Arial,sans-serif" text-anchor="middle" fill="blue">(detaillierte Darstellung)</text>
+  <polyline points="225,127 180,127" stroke-dasharray="8,4" marker-end="url(#arr)" style="fill:none;stroke:blue;stroke-width:1"/>
+</svg>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="380">
+  <rect x="10" y="10" width="200" height="100" style="fill:white;stroke:black;stroke-width:1;" />
+  <text x="110" y="30" font-size="14px" font-family="Arial,sans-serif" text-anchor="middle" font-weight="600">Konto</text>
+  <line x1="10" y1="40" x2="210" y2="40" stroke="black" stroke-width="1" />
+  <text x="15" y="60" font-size="14px" font-family="Arial,sans-serif" text-anchor="start">bezeichnung: String</text>
+  <line x1="10" y1="70" x2="210" y2="70" stroke="black" stroke-width="1" />
+  <text x="15" y="86" font-size="14px" font-family="Arial,sans-serif" text-anchor="start">saldo(): GeldBetrag</text>
+  <text x="15" y="104" font-size="14px" font-family="Arial,sans-serif" text-anchor="start">einzahlen(betrag: GeldBetrag)</text>
+  <rect x="370" y="30" width="130" height="40" style="fill:white;stroke:black;stroke-width:1;" />
+  <text x="435" y="50" font-size="14px" font-family="Arial,sans-serif" text-anchor="middle" font-weight="600">Kunde</text>
+  <rect x="280" y="140" width="130" height="80" style="fill:white;stroke:black;stroke-width:1;" />
+  <text x="345" y="160" font-size="14px" font-family="Arial,sans-serif" text-anchor="middle" font-weight="600">Privatkunde</text>
+  <line x1="280" y1="170" x2="410" y2="170" stroke="black" stroke-width="1" />
+  <text x="285" y="190" font-size="14px" font-family="Arial,sans-serif" text-anchor="start">vorname: String</text>
+  <text x="285" y="208" font-size="14px" font-family="Arial,sans-serif" text-anchor="start">nachname: String</text>
+  <rect x="460" y="140" width="130" height="80" style="fill:white;stroke:black;stroke-width:1;" />
+  <text x="525" y="160" font-size="14px" font-family="Arial,sans-serif" text-anchor="middle" font-weight="600">Geschäftskunde</text>
+  <line x1="460" y1="170" x2="590" y2="170" stroke="black" stroke-width="1" />
+  <text x="465" y="190" font-size="14px" font-family="Arial,sans-serif" text-anchor="start">firmenname: String</text>
+  <rect x="370" y="290" width="130" height="40" style="fill:white;stroke:black;stroke-width:1;" />
+  <text x="435" y="310" font-size="14px" font-family="Arial,sans-serif" text-anchor="middle" font-weight="600">Adresse</text>
+  <polyline points="435,85 445,85 435,70 425,85 435,85 435,105" style="fill:none;stroke:black;stroke-width:1" />
+  <polyline points="345,140 345,105 525,105 525,140" style="fill:none;stroke:black;stroke-width:1" />
+  <line x1="210" y1="50" x2="370" y2="50" stroke="black" stroke-width="1" />
+  <text x="220" y="42" font-size="12px" font-family="Arial,sans-serif" text-anchor="start">konto</text>
+  <text x="220" y="63" font-size="12px" font-family="Arial,sans-serif" text-anchor="start">1..*</text>
+  <text x="360" y="28" font-size="12px" font-family="Arial,sans-serif" text-anchor="end">zeichnungs-</text>
+  <text x="360" y="42" font-size="12px" font-family="Arial,sans-serif" text-anchor="end">berechtigter</text>
+  <text x="360" y="63" font-size="12px" font-family="Arial,sans-serif" text-anchor="end">1..*</text>
+  <polyline points="335,220 335,310 370,310" style="fill:none;stroke:black;stroke-width:1" />
+  <text x="327" y="235" font-size="12px" font-family="Arial,sans-serif" text-anchor="end">0..*</text>
+  <text x="360" y="302" font-size="12px" font-family="Arial,sans-serif" text-anchor="end">1</text>
+  <text x="360" y="323" font-size="12px" font-family="Arial,sans-serif" text-anchor="end">postAdresse</text>
+  <polyline points="535,220 535,310 500,310" style="fill:none;stroke:black;stroke-width:1" />
+  <text x="543" y="235" font-size="12px" font-family="Arial,sans-serif" text-anchor="start">0..*</text>
+  <text x="510" y="302" font-size="12px" font-family="Arial,sans-serif" text-anchor="start">1</text>
+  <text x="510" y="323" font-size="12px" font-family="Arial,sans-serif" text-anchor="start">domizilAdresse</text>
+</svg>
